@@ -1,0 +1,102 @@
+html  {
+  background-image: url(p.jpeg);
+  
+  
+}
+.btn{
+  border-radius: 30%;
+  position: absolute;
+  left: 70%;
+  top: 23px;
+  background-color: rgb(230, 135, 159);
+  font-family: Andale Mono, monospace;
+}
+.property{
+  border-radius: 20%;
+  position: absolute;
+  left: 20%;
+  top: 23px;
+}
+.header {
+  color:rgb(230, 135, 159);
+  background-color: rgb(100, 82, 99);
+  background: rgba(100, 82, 99) 0.8);
+  
+  padding: 20px;
+  height: 60px;
+  border-radius: 30%;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  margin-top: 80px;
+  border-color: rgb(230, 135, 159);
+  border-style: double;
+  position: relative;
+  
+ 
+ 
+}
+.blok1 {
+  color:rgb(51, 42, 51);
+  background-color: rgb(119, 103, 118);
+  font-size: 21px;
+  font-family: Andale Mono, monospace;
+  padding: 20px;
+  height: 60px;
+  border-radius: 10%;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  border-style: double;
+  border-color: rgb(230, 135, 159);
+  background: rgba(119, 103, 118, 0.7);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+.blok2 {
+  color:rgb(51, 42, 51);
+  background-color: rgb(119, 103, 118);
+  background: rgba(119, 103, 118, 0.7);
+  font-size: 21px;
+  font-family: Andale Mono, monospace;
+  padding: 20px;
+  height: 60px;
+  border-radius: 10%;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  border-style: double;
+  border-color: rgb(230, 135, 159);
+   
+}
+
+.blok {
+  display: flex;
+ justify-content: center;
+ margin-top: 60px;
+ align-items: center;
+ margin-bottom: 100px;
+
+ }
+
+ @media screen and (max-width: 767px){
+
+  .blok{
+    flex-direction: column;
+    margin-top: 60px;
+    }
+    .blok1{
+      width: 200px;
+      height: 350px;
+      margin:auto;
+    }
+    .blok2{
+      margin:auto;
+      width: 200px;
+      height: 350px;
+    }
+
+ }
+
